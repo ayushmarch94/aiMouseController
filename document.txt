@@ -1,0 +1,8 @@
+Instruction of use
+
+->Perform actions based on the relative positions of the index finger and thumb:
+{
+    1. If the distance between the index finger and thumb is less than 20 pixels, simulate a mouse click using pyautogui.click().
+    
+    2. If the distance is between 20 and 100 pixels, move the mouse cursor to the calculated coordinates using pyautogui.moveTo().
+}
